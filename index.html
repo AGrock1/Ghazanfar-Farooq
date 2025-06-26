@@ -414,10 +414,14 @@
 	</div>
 </div>
 		
-	<div id="fh5co-consult">
-		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-			<div class="overlay"></div>
-		</div>
+	<div class="video fh5co-video" style="position: relative; overflow: hidden;">
+	<video autoplay loop muted playsinline style="width: 100%; height: auto; object-fit: cover;">
+		<source src="images/cover_bg_1.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<div class="overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></div>
+</div>
+		
 		<div class="choose animate-box">
 			<h2>Contact</h2>
 			<form action="https://api.web3forms.com/submit" method="POST">
